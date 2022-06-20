@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Kalam&family=Noto+Sans+SC:wght@400;700&display=swap');
+
+:root {
+    --my-color: #99bbdd;
+    --my-color-darker: #7799bb;
+    --my-grey: #f0f0f0;
+    --my-grey-darker: #bbbbbb;
+    --my-black: #111111;
+    --my-trans-speed: 0.2s;
+}
+
+body {
+    font-family: "Noto Sans SC" !important;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold !important;
+}
+
+h1 {
+    padding-bottom: 2.2rem;
+}
+
+h2 {
+    padding-bottom: 1.2rem;
+    font-size: calc(1.3rem + 0.6vw);
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--my-color-darker);
+    transition: background-color var(--my-trans-speed) ease-in-out;
+}
+
+a:hover,
+:focus {
+    color: var(--my-color-darker);
+    background-color: var(--my-grey);
+}
+
+nav {
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    padding-top: 10rem;
+    padding-right: 1rem;
+    padding-left: 0rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    overflow: auto;
+}
+
+.content {
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.font-art {
+    font-family: "Kalam", "Noto Sans SC";
+}
+
+.font-code {
+    font-family: "JetBrains Mono", "Noto Sans SC";
+    font-size: 1rem;
+}
+
+.a-nodec {
+    text-decoration: none;
+    color: black;
+    transition: color var(--my-trans-speed) ease-in-out;
+}
+
+.a-nodec:hover,
+:focus {
+    color: var(--my-color);
+    background-color: transparent !important;
+}
+
+.my-color {
+    color: var(--my-color)
+}
+
+.page-header {
+    padding-left: 3rem;
+    padding-right: 6rem;
+    padding-top: 4rem;
+    font-family: "Kalam", "JetBrains Mono", "Noto Sans SC";
+    font-size: 1.5rem;
+}
+
+.page-header-line {
+    border-top: 0.3rem solid var(--my-color);
+    margin-top: 0.5rem;
+}
+
+.page-body {
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 6rem;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+}
+
+.banner {
+    padding-left: 3rem;
+    padding-top: 2rem;
+
+}
+
+.banner-content {
+    font-size: 4rem !important;
+    font-weight: bold !important;
+}
+
+img {
+    object-fit: scale-down;
+    width: 100%;
+}
+
+.image-round {
+    border-radius: 1rem;
+}
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.image-80 {
+    width: 80% !important;
+}
+
+.image-50 {
+    width: 50% !important;
+}
+
+
+.button-big {
+    display: inline-block;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: solid;
+    border-radius: 0.5rem;
+    border-width: 0.2rem;
+    border-color: var(--my-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: var(--my-grey);
+    width: fit-content;
+    transition: background-color var(--my-trans-speed) ease-in-out;
+}
+
+.button-big:hover,
+:focus {
+    color: black;
+    background-color: var(--my-color);
+}
+
+.hr {
+    margin-bottom: 2rem;
+    padding: 0rem;
+    border-top: 0.1rem solid var(--my-grey-darker);
+}
+
+.br {
+    margin-bottom: 3rem;
+}
+
+.table-m {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    line-height: 1.8rem;
+}
+
+.codeblock {
+    font-family: "JetBrains Mono", "Noto Sans SC";
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: black;
+    background-color: var(--my-grey);
+    border-radius: 1rem;
+    padding: 1.4rem;
+}
