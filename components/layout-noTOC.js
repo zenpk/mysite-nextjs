@@ -1,6 +1,9 @@
 import Head from "next/head"
 import Sidebar from "./sidebar"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 export default function LayoutNoTOC({ children }) {
     return (<>
         <Head>
@@ -23,7 +26,7 @@ export default function LayoutNoTOC({ children }) {
                             <div className="col-3 text-end" id="links">
                                 <span className="font-code">{"My GitHub =>"} </span>
                                 <a className="a-nodec fs-3" href="https://github.com/zenpk" tabIndex="0">
-                                    <i className="fa-brands fa-github"></i>
+                                    <FontAwesomeIcon icon={faGithub} />
                                 </a>
                             </div>
                             <ul className="list-unstyled">

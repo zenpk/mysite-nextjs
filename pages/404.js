@@ -1,6 +1,9 @@
 import Link from "next/link";
 import Layout from "../components/layout"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 export default function NotFound() {
     return (
         <Layout>
@@ -9,10 +12,10 @@ export default function NotFound() {
                     <div className="col">
                         <h1>{"404 Not Found Σ(ﾟдﾟ;)"}</h1>
                         <Link href="/">
-							<a className="button-big">Back to Homepage&nbsp;&nbsp;
-								<i className="fa-solid fa-circle-arrow-right"></i>
-							</a>
-						</Link>
+                            <a className="button-big">Back to Homepage&nbsp;&nbsp;
+                                <FontAwesomeIcon icon={faCircleArrowRight} />
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </div>

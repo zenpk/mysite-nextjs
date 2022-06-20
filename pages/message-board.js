@@ -1,5 +1,9 @@
 import Layout from "../components/layout"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 export default function MessageBoard() {
     return (
         <Layout>
@@ -8,9 +12,9 @@ export default function MessageBoard() {
                     <h1>基于 Spring Boot 的留言板系统</h1>
                     <div className="content">
                         <a href="https://github.com/zenpk/spring-boot-message-board-system">
-                            <i className="fa-brands fa-github"></i>
+                            <FontAwesomeIcon icon={faGithub} />
                             &nbsp;&nbsp;源代码及文档&nbsp;&nbsp;
-                            <i className="fa-solid fa-circle-arrow-right"></i>
+                            <FontAwesomeIcon icon={faCircleArrowRight} />
                         </a>
                         <div className="hr"></div>
                     </div>

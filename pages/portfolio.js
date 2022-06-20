@@ -1,6 +1,22 @@
 import Link from "next/link";
 import Layout from "../components/layout"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faC,
+    faCircleArrowRight,
+    faCode,
+    faTrophy,
+    faMedal,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+    faGolang,
+    faPython,
+    faJava,
+    faJs,
+    faFreeCodeCamp,
+} from "@fortawesome/free-brands-svg-icons"
+
 export default function Portfolio() {
     return (
         <Layout>
@@ -34,11 +50,11 @@ export default function Portfolio() {
                         <tbody>
                             <tr className="table-secondary">
                                 <td>
-                                    <i className="fa-brands fa-golang"></i>
+                                    <FontAwesomeIcon icon={faGolang} />
                                     &nbsp;&nbsp;字节跳动青训营——迷你抖音后端功能实现&nbsp;&nbsp;&nbsp;&nbsp;
                                     <Link href="/mini-douyin">
                                         <a>
-                                            了解详情&nbsp;<i className="fa-solid fa-circle-arrow-right"></i>
+                                            了解详情&nbsp;<FontAwesomeIcon icon={faCircleArrowRight} />
                                         </a>
                                     </Link>
                                     &nbsp;&nbsp;⭐
@@ -46,67 +62,67 @@ export default function Portfolio() {
                             </tr>
                             <tr>
                                 <td>
-                                    <i className="fa-brands fa-js"></i>
+                                    <FontAwesomeIcon icon={faJs} />
                                     &nbsp;&nbsp;&nbsp;&nbsp;基于 Next.js 搭建的本网站&nbsp;&nbsp;&nbsp;&nbsp;
                                     <Link href="/about-site">
                                         <a>
-                                            了解详情&nbsp;<i className="fa-solid fa-circle-arrow-right"></i>
+                                            了解详情&nbsp;<FontAwesomeIcon icon={faCircleArrowRight} />
                                         </a>
                                     </Link>
                                 </td>
                             </tr>
                             <tr className="table-secondary">
                                 <td>
-                                    <i className="fa-brands fa-java fw-bold"></i>
+                                    <FontAwesomeIcon icon={faJava} />
                                     &nbsp;&nbsp;&nbsp;&nbsp;基于 Spring Boot 的留言板系统&nbsp;&nbsp;&nbsp;&nbsp;
                                     <Link href="/message-board">
                                         <a>
-                                            了解详情&nbsp;<i className="fa-solid fa-circle-arrow-right"></i>
+                                            了解详情&nbsp;<FontAwesomeIcon icon={faCircleArrowRight} />
                                         </a>
                                     </Link>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <i className="fa-brands fa-python"></i>
+                                    <FontAwesomeIcon icon={faPython} />
                                     &nbsp;&nbsp;&nbsp;&nbsp;基于 PyTorch 的神经网络手写体数字识别&nbsp;&nbsp;&nbsp;&nbsp;
                                     <Link href="/mnist-pytorch">
                                         <a>
-                                            了解详情&nbsp;<i className="fa-solid fa-circle-arrow-right"></i>
+                                            了解详情&nbsp;<FontAwesomeIcon icon={faCircleArrowRight} />
                                         </a>
                                     </Link>
                                 </td>
                             </tr>
                             <tr className="table-secondary">
                                 <td>
-                                    <i className="fa-brands fa-python"></i>
+                                    <FontAwesomeIcon icon={faPython} />
                                     &nbsp;&nbsp;&nbsp;&nbsp;基于 TelegramBotAPI 的多功能聊天机器人
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <i className="fa-solid fa-c"></i>
+                                    <FontAwesomeIcon icon={faC} />
                                     &nbsp;&nbsp;&nbsp;&nbsp;宽带电磁响应仿真中的插值方法研究（毕设题目，论文在投）
                                 </td>
                             </tr>
                             <tr className="table-secondary">
                                 <td>
-                                    <i className="fa-brands fa-python"></i>
+                                    <FontAwesomeIcon icon={faPython} />
                                     &nbsp;&nbsp;&nbsp;&nbsp;使用 Numpy 手动实现神经网络的构建
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <i className="fa-brands fa-python"></i>
+                                    <FontAwesomeIcon icon={faPython} />
                                     &nbsp;&nbsp;&nbsp;&nbsp;基于 OpenCV 的图像处理
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <i className="fa-solid fa-code"></i>
+                                    <FontAwesomeIcon icon={faCode} />
                                     &nbsp;&nbsp;&nbsp;&nbsp;数据结构与算法练习量 {">"} 200 题&nbsp;&nbsp;&nbsp;&nbsp;
                                     <a href="https://leetcode.cn/u/zenpk/">
-                                        我的 LeetCode&nbsp;<i className="fa-brands fa-free-code-camp"></i>
+                                        我的 LeetCode&nbsp;<FontAwesomeIcon icon={faFreeCodeCamp} />
                                     </a>
                                 </td>
                             </tr>
@@ -193,25 +209,25 @@ export default function Portfolio() {
                         <tbody>
                             <tr className="table-secondary">
                                 <td>
-                                    <i className="fa-solid fa-trophy"></i>
+                                    <FontAwesomeIcon icon={faTrophy} />
                                     &nbsp;&nbsp;2020 年 10 月 第十一届蓝桥杯软件类省赛 C/C++ 程序设计大学 A 组 二等奖
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <i className="fa-solid fa-trophy"></i>
+                                    <FontAwesomeIcon icon={faTrophy} />
                                     &nbsp;&nbsp;2021 年&nbsp;&nbsp;4&nbsp;&nbsp;月 第十二届蓝桥杯软件类省赛 C/C++ 程序设计大学 A 组 二等奖
                                 </td>
                             </tr>
                             <tr className="table-secondary">
                                 <td>
-                                    <i className="fa-solid fa-medal"></i>
+                                    <FontAwesomeIcon icon={faMedal} />
                                     &nbsp;&nbsp;2020 年 12 月 {"&"} 2021 年 12 月 北京航空航天大学 学科竞赛奖学金 一等奖
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <i className="fa-solid fa-medal"></i>
+                                    <FontAwesomeIcon icon={faMedal} />
                                     &nbsp;&nbsp;2020 年 12 月 北京航空航天大学 学习优秀奖学金 二等奖
                                 </td>
                             </tr>

@@ -1,6 +1,9 @@
 import Link from "next/link"
 import LayoutNoTOC from "../components/layout-noTOC"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 export default function Home() {
 	return (
 		<LayoutNoTOC>
@@ -14,7 +17,7 @@ export default function Home() {
 						<br />
 						<Link href="/portfolio">
 							<a className="button-big">我的简历&nbsp;&nbsp;
-								<i className="fa-solid fa-circle-arrow-right"></i>
+								<FontAwesomeIcon icon={faCircleArrowRight} />
 							</a>
 						</Link>
 					</div>

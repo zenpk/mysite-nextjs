@@ -1,12 +1,23 @@
 import Layout from "../components/layout"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 export default function AboutSite() {
     return (
         <Layout>
             <div className="row">
                 <div className="col">
                     <h1>基于 Next.js 搭建的本网站</h1>
-                    <div className="hr"></div>
+                    <div className="content">
+                        <a href="https://github.com/zenpk/mysite-nextjs">
+                            <FontAwesomeIcon icon={faGithub} />
+                            &nbsp;&nbsp;源代码及文档&nbsp;&nbsp;
+                            <FontAwesomeIcon icon={faCircleArrowRight} />
+                        </a>
+                        <div className="hr"></div>
+                    </div>
                     <h2 id="about">简介</h2>
                     <div className="content">
                         本网站通过使用 Next.js 简化了 HTML 的编写过程，使得此简单网页的制作更加方便

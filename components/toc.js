@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const getNestedHeadings = (headingElements) => {
     const nestedHeadings = [];
@@ -67,7 +69,7 @@ export default function TableOfContents() {
                 <Headings headings={nestedHeadings} />
                 <a href="#" id="backToTop" className="button-big fs-6 py-1 px-2">
                     Back to Top&nbsp;&nbsp;
-                    <i className="fa-solid fa-circle-arrow-up"></i>
+                    <FontAwesomeIcon icon={faCircleArrowUp} />
                 </a>
             </nav>
 

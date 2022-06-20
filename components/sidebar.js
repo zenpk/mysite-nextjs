@@ -1,5 +1,13 @@
 import Link from "next/link"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faPhone,
+    faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+import { faWeixin } from "@fortawesome/free-brands-svg-icons";
+
+
 export default function Sidebar() {
     return (<>
         {/* <div className="flex-shrink-0 sidebar-all" style={{ width: "22em" }}> */}
@@ -77,19 +85,19 @@ export default function Sidebar() {
             <ul className="list-unstyled" id="contact">
                 <li>
                     <span className="sidebar-contact">
-                        <i className="fa-solid fa-phone my-color"></i>
+                        <FontAwesomeIcon icon={faPhone} className="my-color" />
                         &nbsp;&nbsp;&nbsp;156-0126-1799
                     </span>
                 </li>
                 <li>
                     <span className="sidebar-contact">
-                        <i className="fa-solid fa-envelope my-color"></i>
+                        <FontAwesomeIcon icon={faEnvelope} className="my-color" />
                         &nbsp;&nbsp;&nbsp;zenpk@foxmail.com
                     </span>
                 </li>
                 <li>
                     <span className="sidebar-contact">
-                        <i className="fa-brands fa-weixin my-color"></i>
+                        <FontAwesomeIcon icon={faWeixin} className="my-color" />
                         &nbsp;&nbsp;&nbsp;zzenpk
                     </span>
                 </li>
