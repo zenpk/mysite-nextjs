@@ -32,17 +32,29 @@ h2 {
     font-size: calc(1.3rem + 0.6vw);
 }
 
-a {
+.a-dec {
     font-weight: bold;
     text-decoration: none;
     color: var(--my-color-darker);
     transition: background-color var(--my-trans-speed) ease-in-out;
 }
 
-a:hover,
+.a-dec:hover,
 :focus {
     color: var(--my-color-darker);
     background-color: var(--my-grey);
+}
+
+.a-nodec {
+    text-decoration: none;
+    color: black;
+    transition: color var(--my-trans-speed) ease-in-out;
+}
+
+.a-nodec:hover,
+:focus {
+    color: var(--my-color);
+    background-color: transparent !important;
 }
 
 nav {
@@ -71,18 +83,6 @@ nav {
 .font-code {
     font-family: "JetBrains Mono", "Noto Sans SC";
     font-size: 1rem;
-}
-
-.a-nodec {
-    text-decoration: none;
-    color: black;
-    transition: color var(--my-trans-speed) ease-in-out;
-}
-
-.a-nodec:hover,
-:focus {
-    color: var(--my-color);
-    background-color: transparent !important;
 }
 
 .my-color {

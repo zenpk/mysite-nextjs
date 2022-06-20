@@ -11,7 +11,7 @@ export default function AboutSite() {
                 <div className="col">
                     <h1>基于 Next.js 搭建的本网站</h1>
                     <div className="content">
-                        <a href="https://github.com/zenpk/mysite-nextjs">
+                        <a className="a-dec" href="https://github.com/zenpk/mysite-nextjs">
                             <FontAwesomeIcon icon={faGithub} />
                             &nbsp;&nbsp;源代码及文档&nbsp;&nbsp;
                             <FontAwesomeIcon icon={faCircleArrowRight} />

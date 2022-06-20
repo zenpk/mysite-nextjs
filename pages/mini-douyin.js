@@ -11,7 +11,7 @@ export default function MiniDouyin() {
                 <div className="col">
                     <h1>字节跳动青训营——迷你抖音后端功能实现</h1>
                     <div className="content">
-                        <a href="https://github.com/zenpk/mini-douyin">
+                        <a className="a-dec" href="https://github.com/zenpk/mini-douyin">
                             <FontAwesomeIcon icon={faGithub} />
                             &nbsp;&nbsp;源代码及文档&nbsp;&nbsp;
                             <FontAwesomeIcon icon={faCircleArrowRight} />

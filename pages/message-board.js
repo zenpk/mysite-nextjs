@@ -11,7 +11,7 @@ export default function MessageBoard() {
                 <div className="col" id="content">
                     <h1>基于 Spring Boot 的留言板系统</h1>
                     <div className="content">
-                        <a href="https://github.com/zenpk/spring-boot-message-board-system">
+                        <a className="a-dec" href="https://github.com/zenpk/spring-boot-message-board-system">
                             <FontAwesomeIcon icon={faGithub} />
                             &nbsp;&nbsp;源代码及文档&nbsp;&nbsp;
                             <FontAwesomeIcon icon={faCircleArrowRight} />

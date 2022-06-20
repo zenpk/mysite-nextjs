@@ -11,7 +11,7 @@ export default function MINSTPytorch() {
                 <div className="col" id="content">
                     <h1>基于 PyTorch 的手写体数字识别</h1>
                     <div className="content">
-                        <a href="https://github.com/zenpk/HandwrittenDigitsRecognition-PyTorch">
+                        <a className="a-dec" href="https://github.com/zenpk/HandwrittenDigitsRecognition-PyTorch">
                             <FontAwesomeIcon icon={faGithub} />
                             &nbsp;&nbsp;源代码及文档&nbsp;&nbsp;
                             <FontAwesomeIcon icon={faCircleArrowRight} />
