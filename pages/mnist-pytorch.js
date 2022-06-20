@@ -24,43 +24,45 @@ export default function MINSTPytorch() {
                     </div>
                     <h2 id="modelTraining">模型训练</h2>
                     <h3 id="hyperparameters">超参量</h3>
-                    <table className="table table-m">
-                        <thead></thead>
-                        <tbody>
-                            <tr className="table-secondary">
-                                <th>
-                                    迭代次数
-                                </th>
-                                <td>
-                                    10
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    学习率
-                                </th>
-                                <td>
-                                    0.01
-                                </td>
-                            </tr>
-                            <tr className="table-secondary">
-                                <th>
-                                    隐藏结点数
-                                </th>
-                                <td>
-                                    64
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    分批方式
-                                </th>
-                                <td>
-                                    共有训练样本 60,000 个，分为 1875 组，每组 32 个
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div className="table-m">
+                        <table className="table">
+                            <thead></thead>
+                            <tbody>
+                                <tr className="table-secondary">
+                                    <th>
+                                        迭代次数
+                                    </th>
+                                    <td>
+                                        10
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        学习率
+                                    </th>
+                                    <td>
+                                        0.01
+                                    </td>
+                                </tr>
+                                <tr className="table-secondary">
+                                    <th>
+                                        隐藏结点数
+                                    </th>
+                                    <td>
+                                        64
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        分批方式
+                                    </th>
+                                    <td>
+                                        共有训练样本 60,000 个，分为 1875 组，每组 32 个
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <h3 id="neuralNetwork">神经网络结构</h3>
                     <div className="content">
                         由于输入图像为像素数 28 * 28 = 784 的灰度图像，因此输入层有 784 个结点

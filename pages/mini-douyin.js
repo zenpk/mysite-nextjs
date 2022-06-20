@@ -24,35 +24,37 @@ export default function MiniDouyin() {
                         包括用户注册登录、视频投稿、视频推送、点赞评论关注等功能
                     </div>
                     <h2 id="tech">相关技术</h2>
-                    <table className="table table-m">
-                        <thead></thead>
-                        <tbody>
-                            <tr className="table-secondary">
-                                <th>
-                                    开发语言
-                                </th>
-                                <td>
-                                    Go
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    HTTP 框架
-                                </th>
-                                <td>
-                                    Gin
-                                </td>
-                            </tr>
-                            <tr className="table-secondary">
-                                <th>
-                                    数据库
-                                </th>
-                                <td>
-                                    GORM + MySQL
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div className="table-m">
+                        <table className="table">
+                            <thead></thead>
+                            <tbody>
+                                <tr className="table-secondary">
+                                    <th>
+                                        开发语言
+                                    </th>
+                                    <td>
+                                        Go
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        HTTP 框架
+                                    </th>
+                                    <td>
+                                        Gin
+                                    </td>
+                                </tr>
+                                <tr className="table-secondary">
+                                    <th>
+                                        数据库
+                                    </th>
+                                    <td>
+                                        GORM + MySQL
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </Layout>
