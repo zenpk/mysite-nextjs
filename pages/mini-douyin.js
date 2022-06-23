@@ -159,7 +159,7 @@ export default function MiniDouyin() {
                         <ul>
                             <li>注册和登录阶段为 token 生成阶段，因此不需经过 JWT 鉴权</li>
                             <li>用户注册或登录成功后，会生成 token 返回给用户，同时将用户的相关信息写入 Redis 缓存，用户信息在 Redis 中以 Hash 的形式存储</li>
-                            <li>用户密码采用 BCrypt 加密（BCrypt 的优势在于可以人为调整哈希值计算复杂度，以应对彩虹表等攻击），注册时会检验用户名是否已存在</li>
+                            <li>用户密码采用 BCrypt 加密（BCrypt 的优势在于可以人为调整哈希值计算复杂度，以应对日益增强的算力），注册时会检验用户名是否已存在</li>
                         </ul>
                     </div>
                     <h3 id="video">视频模块</h3>
