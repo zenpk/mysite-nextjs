@@ -120,12 +120,13 @@ export default function MINSTPytorch() {
                         识别准确率与高斯噪声方差关系如下
                     </div>
                     <div className="content image-center">
-                        <img className="image-50"
+                        <img className="image-40"
                             src="/mnist-pytorch/noise-testing.png"
                             alt="gaussianNoiseAdded"
                         />
                         <br />
-                        识别准确率与高斯噪声方差关系图像</div>
+                        识别准确率与高斯噪声方差关系图像
+                    </div>
                     <h3 id="customTesting">自行创建测试样本</h3>
                     <div className="content">
                         可以自行绘制 28*28 的灰度图，并加噪进行测试，测试结果如下

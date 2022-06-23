@@ -7,6 +7,7 @@
     --my-grey-darker: #bbbbbb;
     --my-black: #111111;
     --my-trans-speed: 0.2s;
+    --my-margin-bottom: 2rem;
 }
 
 body {
@@ -64,6 +65,7 @@ nav {
     padding-top: 10rem;
     padding-right: 1rem;
     padding-left: 0rem;
+    padding-bottom: 10rem;
     line-height: 2rem;
     font-size: 1.2rem;
     overflow: auto;
@@ -73,7 +75,7 @@ nav {
     font-weight: normal;
     font-size: 1.2rem;
     line-height: 2.2rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: var(--my-margin-bottom);
 }
 
 .font-art {
@@ -142,8 +144,16 @@ img {
     width: 80% !important;
 }
 
+.image-60 {
+    width: 60% !important;
+}
+
 .image-50 {
     width: 50% !important;
+}
+
+.image-40 {
+    width: 40% !important;
 }
 
 
@@ -172,18 +182,18 @@ img {
 }
 
 .hr {
-    margin-bottom: 2rem;
+    margin-bottom: var(--my-margin-bottom);
     padding: 0rem;
     border-top: 0.1rem solid var(--my-grey-darker);
 }
 
 .br {
-    margin-bottom: 3rem;
+    margin-bottom: var(--my-margin-bottom);
 }
 
 .table-m {
     font-size: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: var(--my-margin-bottom);
     line-height: 1.8rem;
 }
 

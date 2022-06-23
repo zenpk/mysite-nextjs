@@ -23,7 +23,10 @@ export default function Portfolio() {
             <div className="row" id="first-row">
                 <div className="col-9" id="info">
                     <h1>个人简历</h1>
-                    <div className="content fs-3 fw-bold">曾远昊</div>
+                    <div className="content">
+                        <span className="fs-3 fw-bold">曾远昊&nbsp;&nbsp;</span>
+                        <span className="fs-5 fw-normal">男&nbsp;&nbsp;22岁</span>
+                    </div>
                     <div className="content fw-bold">
                         本科院校：北京航空航天大学 — 电子信息工程学院 — 通信工程
                         <br />
@@ -141,35 +144,35 @@ export default function Portfolio() {
                             <tbody>
                                 <tr className="table-secondary">
                                     <td>Go</td>
-                                    <td>比较熟练、有项目经验</td>
+                                    <td>▮▮▮▮▯&nbsp;&nbsp;&nbsp;&nbsp;比较熟练、有项目经验</td>
                                 </tr>
                                 <tr>
                                     <td>C/C++</td>
-                                    <td>比较熟练、掌握经典数据结构与算法</td>
+                                    <td>▮▮▮▯▯&nbsp;&nbsp;&nbsp;&nbsp;比较熟练、掌握经典数据结构与算法</td>
                                 </tr>
                                 <tr className="table-secondary">
                                     <td>MATLAB</td>
-                                    <td>比较熟练、本科毕设相关</td>
+                                    <td>▮▮▮▯▯&nbsp;&nbsp;&nbsp;&nbsp;比较熟练、本科毕设相关</td>
                                 </tr>
                                 <tr>
                                     <td>Git</td>
-                                    <td>熟悉</td>
+                                    <td>▮▮▯▯▯&nbsp;&nbsp;&nbsp;&nbsp;熟悉</td>
                                 </tr>
                                 <tr className="table-secondary">
                                     <td>HTML, CSS</td>
-                                    <td>熟悉</td>
+                                    <td>▮▮▯▯▯&nbsp;&nbsp;&nbsp;&nbsp;熟悉</td>
                                 </tr>
                                 <tr>
                                     <td>Python</td>
-                                    <td>熟悉</td>
+                                    <td>▮▮▯▯▯&nbsp;&nbsp;&nbsp;&nbsp;熟悉</td>
                                 </tr>
                                 <tr className="table-secondary">
                                     <td>Java</td>
-                                    <td>了解</td>
+                                    <td>▮▯▯▯▯&nbsp;&nbsp;&nbsp;&nbsp;了解</td>
                                 </tr>
                                 <tr>
                                     <td>SQL</td>
-                                    <td>了解</td>
+                                    <td>▮▯▯▯▯&nbsp;&nbsp;&nbsp;&nbsp;了解</td>
                                 </tr>
                             </tbody>
                         </table>
