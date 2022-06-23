@@ -84,7 +84,7 @@ export default function MiniDouyin() {
                                 │<br />
                                 ├───cmd<br />
                                 │     └───main<br />
-                                │           main.go<br />
+                                │             main.go<br />
                                 │<br />
                                 ├───config<br />
                                 │       const_value.go<br />
