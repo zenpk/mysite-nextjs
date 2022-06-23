@@ -204,4 +204,5 @@ img {
     background-color: var(--my-grey);
     border-radius: 1rem;
     padding: 1.4rem;
+    white-space: pre;
 }
