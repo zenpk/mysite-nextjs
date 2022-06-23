@@ -196,6 +196,34 @@ export default function MiniDouyin() {
                             <li>查看关注/粉丝列表：先查询 Redis，未命中再查询 MySQL 并写入</li>
                         </ul>
                     </div>
+                    <h2 id="testing">测试优化</h2>
+                    <div className="content">
+                        在对每个模块完成基本的手动功能测试和优化后，还可以借助一些工具完成自动测试
+                    </div>
+                    <h3 id="pprof">pprof 测试</h3>
+                    <div className="content">
+                        使用 pprof 对 CPU 使用情况、内存使用情况等进行测试，排查问题。对于 gin 框架，可使用 gin-contrib/pprof 包进行测试
+                    </div>
+                    <div className="content image-center">
+                        <img className="image-80"
+                            src="/mini-douyin/pprof.png"
+                            alt="pprof"
+                        />
+                        <br />
+                        测试结果：无异常的 CPU、内存等使用情况
+                    </div>
+                    <h3 id="sqlmap">sqlmap 测试</h3>
+                    <div className="content">
+                        使用 sqlmap 对 SQL 安全进行测试，将使用到的各种请求输入 sqlmap，并针对登录模块提高测试等级
+                    </div>
+                    <div className="content image-center">
+                        <img className="image-80"
+                            src="/mini-douyin/sqlmap.png"
+                            alt="sqlmap"
+                        />
+                        <br />
+                        测试结果：无可 SQL 注入的单元
+                    </div>
                     <h2 id="server">服务器部署</h2>
                     <div className="content">
                         该项目已部署至腾讯云，服务器地址为：{"http://101.43.179.27:10240/"}，您可以使用“抖声”APP 体验完整功能。具体操作可参考
