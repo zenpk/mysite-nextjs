@@ -1,7 +1,7 @@
 .sidebar-all {
     background-color: var(--my-grey);
     padding: 2rem;
-    padding-right: 2rem;
+    height: 100vh;
 }
 
 .sidebar-title {

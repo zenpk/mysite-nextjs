@@ -1,4 +1,3 @@
-import Head from "next/head"
 import Sidebar from "./sidebar"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,15 +5,9 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function LayoutNoTOC({ children }) {
     return (<>
-        <Head>
-            <title>{"zenpk's blog"}</title>
-            <meta charSet="utf-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        </Head>
-
-        <div className="container-fluid px-0">
-            <div className="row">
-                <div className="col-3" id="sidebar">
+        <div className="container-fluid">
+            <div className="row p-0">
+                <div className="col-3 p-0" id="sidebar">
                     <Sidebar />
                 </div>
                 <div className="col-9" id="main">
