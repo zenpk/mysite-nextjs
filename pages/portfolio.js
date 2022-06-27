@@ -28,9 +28,9 @@ export default function Portfolio() {
                         <span className="fs-5 fw-normal">男&nbsp;&nbsp;22岁</span>
                     </div>
                     <div className="content fw-bold">
-                        本科院校：北京航空航天大学 — 电子信息工程学院 — 通信工程
+                        本科院校：北京航空航天大学 — 电子信息工程学院 — 通信工程{" (2018.9-2022.6)"}
                         <br />
-                        硕士院校：北京大学 — 软件与微电子学院 — 软件工程（拟录取）
+                        硕士院校：北京大学 — 软件与微电子学院 — 软件工程{" (拟录取) (2022.9-2025.6)"}
                     </div>
                 </div>
                 <div className="col-3" id="photo">
@@ -232,10 +232,16 @@ export default function Portfolio() {
                                 <tr className="table-secondary">
                                     <td>
                                         <FontAwesomeIcon icon={faMedal} />
-                                        &nbsp;&nbsp;2020 年 12 月 {"&"} 2021 年 12 月 北京航空航天大学 学科竞赛奖学金 一等奖
+                                        &nbsp;&nbsp;2020 年 12 月 北京航空航天大学 学科竞赛奖学金 一等奖
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>
+                                        <FontAwesomeIcon icon={faMedal} />
+                                        &nbsp;&nbsp;2021 年 12 月 北京航空航天大学 学科竞赛奖学金 一等奖
+                                    </td>
+                                </tr>
+                                <tr className="table-secondary">
                                     <td>
                                         <FontAwesomeIcon icon={faMedal} />
                                         &nbsp;&nbsp;2020 年 12 月 北京航空航天大学 学习优秀奖学金 二等奖
