@@ -31,12 +31,14 @@ export default function Portfolio() {
                         <span className="fw-bold">
                             本科院校：北京航空航天大学 — 电子信息工程学院 — 通信工程
                         </span>
-                        {" (2018.9-2022.6)"}
+                        <br />
+                        {" (2018.9 - 2022.6)"}
                         <br />
                         <span className="fw-bold">
                             硕士院校：北京大学 — 软件与微电子学院 — 软件工程
                         </span>
-                        {" (2022.9-2025.6)"}
+                        <br />
+                        {" (2022.9 - 2025.6)"}
                     </div>
                 </div>
                 <div className="col-3" id="photo">
