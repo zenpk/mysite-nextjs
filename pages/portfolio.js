@@ -34,7 +34,7 @@ export default function Portfolio() {
                         {" (2018.9-2022.6)"}
                         <br />
                         <span className="fw-bold">
-                            硕士院校：北京大学 — 软件与微电子学院 — 软件工程{" (拟录取)"}
+                            硕士院校：北京大学 — 软件与微电子学院 — 软件工程
                         </span>
                         {" (2022.9-2025.6)"}
                     </div>
