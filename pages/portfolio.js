@@ -42,6 +42,8 @@ export default function Portfolio() {
                     </div>
                 </div>
                 <div className="col-3" id="photo">
+                    <br />
+                    <br />
                     <img className="content"
                         src="/portfolio/id.jpg"
                         alt="me"
